@@ -1,21 +1,20 @@
-# Het doel van de risicoverevening
+# The goal of risk equalization
 
 <!-- badges: start -->
 <!-- badges: end -->
 
-In een paar slides wordt het doel van de risicoverevening uitgelegd.
-Kort en bondig.
+The purpose of risk equalization is explained in a few slides. Short and to the point.
 
-# Help mee!
+# Contribute!
 
-Als je mee wilt helpen of een (tekst)suggestie hebt, dan wordt het erg gewaardeerd als je dat even laat weten. Dat kan [via deze link](https://github.com/risk-equalization/goal-risk-equalization/issues/new/choose).
+If you want to contribute or have a (text) suggestion, it would be much appreciated if you let us know. You can let us know [via this link](https://github.com/risk-equalization/goal-risk-equalization/issues/new/choose).
 
 # Copyright
 
-De inhoud van deze slides is beschikbaar onder de [Creative Commons
-Naamsvermelding-GelijkDelen 4.0
-Internationaal](https://creativecommons.org/licenses/by-sa/4.0/)
-licentie. De broncode voor het genereren van deze slides is beschikbaar
-op [GitHub](https://pst.am/goal-risk-equalization) onder de [MIT
-licentie](https://github.com/risk-equalization/goal-risk-equalization/blob/main/LICENSE).
+The content of these slides is available under the [Creative Commons
+Attribution-ShareAlike 4.0
+International](https://creativecommons.org/licenses/by-sa/4.0/)
+license. The source code for generating these slides is available
+on [GitHub](https://pst.am/goal-risk-equalization) under the [MIT
+license](https://github.com/risk-equalization/goal-risk-equalization/blob/main/LICENSE).
 Copyright (c) 2022 [Piet Stam](https://www.pietstam.nl).
