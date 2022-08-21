@@ -215,5 +215,6 @@ class: inverse, center, middle
 # [pst.am/goal-risk-equalization](https://pst.am/goal-risk-equalization)
 
 .footnote[
-De inhoud van deze slides is beschikbaar onder de [Creative Commons Naamsvermelding-GelijkDelen 4.0 Internationaal](https://creativecommons.org/licenses/by-sa/4.0/) licentie. De broncode voor het genereren van deze slides is beschikbaar op [GitHub](https://github.com/risk-equalization/goal-risk-equalization) onder de [MIT licentie](https://github.com/risk-equalization/goal-risk-equalization/blob/main/LICENSE). Copyright (c) 2022 [Piet Stam](https://www.pietstam.nl).
+The content of these slides is available under the [Creative Commons Attribution-ShareAlike 4.0
+International](https://creativecommons.org/licenses/by-sa/4.0/) license. The source code for generating these slides is available on [GitHub](https://pst.am/goal-risk-equalization) under the [MIT license](https://github.com/risk-equalization/goal-risk-equalization/blob/main/LICENSE). Copyright (c) 2022 [Piet Stam](https://www.pietstam.nl).
 ]
