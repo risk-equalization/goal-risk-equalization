@@ -1,0 +1,73 @@
+/* CSS arrow: https://codepen.io/LukyVj/pen/AveZjg
+   Define constants in CSS: https://stackoverflow.com/a/48175165
+   CSS calc with variables and multiplication: https://stackoverflow.com/a/53244557
+*/
+:root {
+  --custom-top: 250px;
+  --custom-color: #657375;
+  --custom-width: 675px;
+  --custom-height: 300px;
+  --custom-width-triangle: 250px;
+}
+.arrow{
+  position: absolute;
+  top: var(--custom-top);
+  width: var(--custom-width);
+  height: var(--custom-height);
+  background-color: var(--custom-color);
+}
+.arrow:after{
+  position: relative;
+  top: calc(var(--custom-top) - 150px);
+  margin: calc(var(--custom-height) * -0.9) calc(var(--custom-width) - 1px);
+  display: block;
+  content: '';
+  border-top: var(--custom-height) solid transparent;
+  border-bottom: var(--custom-height) solid transparent;
+  border-left: var(--custom-width-triangle) solid var(--custom-color);
+}
+/* 
+Five column layout
+*/
+:root {
+  --custom-top-icon: calc(var(--custom-top) - 100px);
+}
+.pull-left-5 {
+  position: relative;
+  top: var(--custom-top-icon);
+  float: left;
+  width: 15%;
+  padding: 0 2.5% 0 0;
+}
+
+.pull-left-middle-5 {
+  position: relative;
+  top: var(--custom-top-icon);
+  float: left;
+  width: 15%;
+  padding: 0 2.5%;
+}
+
+.pull-middle-5 {
+  position: relative;
+  top: var(--custom-top-icon);
+  float: left;
+  width: 15%;
+  padding: 0 2.5%;
+}
+
+.pull-right-middle-5 {
+  position: relative;
+  top: var(--custom-top-icon);
+  float: left;
+  width: 15%;
+  padding: 0 2.5%;
+}
+
+.pull-right-5 {
+  position: relative;
+  top: var(--custom-top-icon);
+  float: right;
+  width: 15%;
+  padding: 0 0 0 2.5%;
+}

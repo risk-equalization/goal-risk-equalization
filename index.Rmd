@@ -1,0 +1,219 @@
+---
+title: 'The goal of risk equalization'
+author: "Piet Stam"
+date: "`r format(Sys.Date(), '%d-%m-%Y')`"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    chakra: "libs/remark-latest.min.js"
+    css: [default, metropolis, metropolis-fonts, "css/my-arrow.css", "css/my-style.css", "css/animate.css"]
+    seal: false
+    anchor_sections: false
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: '16:9'
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(warning = FALSE, message = FALSE, 
+                      fig.retina = 3, fig.align = "center")
+```
+
+```{r xaringan-animate-css, echo=FALSE}
+xaringanExtra::use_animate_css()
+```
+
+name: front
+
+class: inverse, middle, center
+
+# The goal of risk equalization
+
+## .center[[Piet Stam](https://www.pietstam.nl)]
+
+---
+
+name: competition
+
+# Health insurers compete for the favor of insured
+
+.arrow[]
+
+.pull-left-5[
+![Competition](img/concurrentie.svg)
+## .my-style[Competition]
+]
+
+???
+
+Health insurers compete for the favor of every insured person. The aim of this battle is that health insurers respond effectively to the preferences of insured persons and organize the necessary care on their behalf. Insured people exert pressure on health insurers by voting with their feet.
+
+---
+
+name: effects
+
+# Competition leads to desired and undesired effects
+
+.arrow[]
+
+.pull-left-5[
+![Competition](img/concurrentie.svg)
+## .my-style[Competition]
+]
+
+.pull-right-5[
+![Effects](img/effecten.svg)
+## Effects
+]
+
+???
+
+The desired effect of the competition for the insured is that it benefits the access, quality and affordability of healthcare. However, without additional measures, competition also leads to undesirable effects. For example, the premium of the policy for an unhealthy insured will be higher than the same policy for a healthy insured.
+
+---
+
+name: regulation
+
+# Government wants to prevent the undesired effects
+
+.arrow[]
+
+.pull-left-5[
+![Competition](img/concurrentie.svg)
+## .my-style[Competition]
+]
+
+.pull-left-middle-5.animated.bounce[
+![Regulation](img/regulering.svg)
+## .my-style[Regulation]
+]
+
+.pull-right-5[
+![Effects](img/effecten.svg)
+## Effects
+]
+
+???
+
+The government wants to keep the premium of the basic health insurance affordable for every inhabitant, whether they are healthy or unhealthy. To enforce this, the government has regulated the health insurance market: an insurer may not apply premium differentiation, policy differentiation or underwriting.
+
+---
+
+name: incentives
+
+# However, regulation creates undesirable incentives
+
+.arrow[]
+
+.pull-left-5[
+![Competition](img/concurrentie.svg)
+## .my-style[Competition]
+]
+
+.pull-left-middle-5[
+![Regulation](img/regulering.svg)
+## .my-style[Regulation]
+]
+
+.pull-middle-5.animated.tada[
+![Incentives](img/prikkels.svg)
+## .my-style[Incentives]
+]
+
+.pull-right-5[
+![Effects](img/effecten.svg)
+## Effects
+]
+
+???
+
+However, the regulation creates undesirable financial incentives. After all, an insurer who is legally obliged to charge one and the same premium from all its policyholders, may observe in their administration that a healthy insured person yields a (predictable) profit and the other insured a (predictable) loss.
+
+---
+
+name: behavior
+
+# These incentives can lead to undesirable behavior
+
+.arrow[]
+
+.pull-left-5[
+![Competition](img/concurrentie.svg)
+## .my-style[Competition]
+]
+
+.pull-left-middle-5[
+![Regulation](img/regulering.svg)
+## .my-style[Regulation]
+]
+
+.pull-middle-5[
+![Incentives](img/prikkels.svg)
+## .my-style[Incentives]
+]
+
+.pull-right-middle-5.animated.heartBeat[
+![Behavior](img/gedrag.svg)
+## .my-style[Behavior]
+]
+
+.pull-right-5[
+![Effects](img/effecten.svg)
+## Effects
+]
+
+???
+
+These financial incentives can lead to undesirable behavior, both on the part of health insurers (risk selection) and on the part of policyholders (self-selection). This undesirable behavior can lead to negative effects on affordability, access and quality of care.
+
+---
+
+name: risk-equalization
+
+# Risk equalization makes bad behavior unprofitable
+
+.arrow[]
+
+.pull-left-5[
+![Competition](img/concurrentie.svg)
+## .my-style[Competition]
+]
+
+.pull-left-middle-5[
+![Regulation](img/regulering.svg)
+## .my-style[Regulering ]
+ 
+##& **Risk equalization**
+]
+
+.pull-middle-5[
+![Incentives](img/prikkels.svg)
+## .my-style[Incentives]
+]
+
+.pull-right-middle-5[
+![Behavior](img/gedrag.svg)
+## .my-style[Behavior]
+]
+
+.pull-right-5[
+![Effects](img/effecten.svg)
+## Effects
+]
+
+???
+
+Because of risk equalization, a health insurer with a relatively large number of (predictably) unhealthy policyholders receives compensation from the national Health Insurance Fund, while health insurers with a relatively large number of (predictably) healthy policyholders must contribute to this. The aim of risk equalization is to reduce undesired financial incentives, so that undesired behavior becomes unprofitable and the behavior will be aimed at achieving the desired behavioral effects: good affordability, access and quality of care for every insured person.
+
+---
+class: inverse, center, middle
+
+# [pst.am/goal-risk-equalization](https://pst.am/goal-risk-equalization)
+
+.footnote[
+De inhoud van deze slides is beschikbaar onder de [Creative Commons Naamsvermelding-GelijkDelen 4.0 Internationaal](https://creativecommons.org/licenses/by-sa/4.0/) licentie. De broncode voor het genereren van deze slides is beschikbaar op [GitHub](https://github.com/risk-equalization/goal-risk-equalization) onder de [MIT licentie](https://github.com/risk-equalization/goal-risk-equalization/blob/main/LICENSE). Copyright (c) 2022 [Piet Stam](https://www.pietstam.nl).
+]
