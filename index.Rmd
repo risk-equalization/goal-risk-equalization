@@ -39,7 +39,7 @@ class: inverse, middle, center
 
 name: competition
 
-# Health insurers compete for the favor of insured
+# Health insurers compete for the favor of enrollees
 
 .arrow[]
 
@@ -185,7 +185,7 @@ name: risk-equalization
 
 .pull-left-middle-5[
 ![Regulation](img/regulering.svg)
-## .my-style[Regulering ]
+## .my-style[Regulation ]
  
 ##& **Risk equalization**
 ]
