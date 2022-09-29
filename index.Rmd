@@ -105,7 +105,7 @@ The government wants to keep the premium of the basic health insurance affordabl
 
 name: incentives
 
-# However, regulation creates undesirable incentives
+# However, regulation creates perverse incentives
 
 .arrow[]
 
@@ -137,7 +137,7 @@ However, the regulation creates undesirable financial incentives. After all, an 
 
 name: behavior
 
-# These incentives can lead to undesirable behavior
+# These incentives may lead to undesired behavior
 
 .arrow[]
 
@@ -168,13 +168,13 @@ name: behavior
 
 ???
 
-These financial incentives can lead to undesirable behavior, both on the part of health insurers (risk selection) and on the part of policyholders (self-selection). This undesirable behavior can lead to negative effects on affordability, access and quality of care.
+These financial incentives may lead to undesirable behavior, both on the part of health insurers (risk selection) and on the part of policyholders (self-selection). This undesirable behavior can lead to negative effects on affordability, access and quality of care.
 
 ---
 
 name: risk-equalization
 
-# Risk equalization makes bad behavior unprofitable
+# Risk equalization: focus incentives on desired behavior
 
 .arrow[]
 
